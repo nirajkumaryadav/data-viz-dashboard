@@ -1,0 +1,8 @@
+FastAPI
+uvicorn
+pydantic
+sqlalchemy
+d3
+requests
+python-multipart
+aiofiles
