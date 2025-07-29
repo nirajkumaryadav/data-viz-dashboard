@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+*.sqlite3
+
+# FastAPI/Uvicorn
+*.log
+
+# VSCode
+.vscode/
+
+# Node/React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+
+# General
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Mac
+*.DS_Store
+
+# Windows
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Logs
+*.log
+
+# Test coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+.pytest_cache/
