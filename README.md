@@ -97,22 +97,22 @@ A stunning, modern data visualization dashboard built with React, D3.js, and Fas
 
 ```
 data-viz-dashboard/
-├── 📂 backend/
-│   ├── 📂 app/
+├── backend/
+│   ├── app/
 │   │   ├── main.py              # FastAPI application
 │   │   ├── schemas.py           # Pydantic models
 │   │   └── data/
 │   │       └── jsondata.json    # Sample dataset
 │   └── requirements.txt         # Python dependencies
-├── 📂 frontend/
-│   ├── 📂 public/
+├── frontend/
+│   ├── public/
 │   │   └── index.html          # HTML template
-│   ├── 📂 src/
-│   │   ├── 📂 components/
+│   ├── src/
+│   │   ├── components/
 │   │   │   ├── Dashboard.js    # Main dashboard component
 │   │   │   ├── Chart.js        # D3.js chart component
 │   │   │   └── DataTable.js    # Data table component
-│   │   ├── 📂 services/
+│   │   ├── services/
 │   │   │   └── api.js          # API service layer
 │   │   ├── dashboard.css       # Main styles
 │   │   ├── utilities.css       # Utility classes
@@ -121,7 +121,7 @@ data-viz-dashboard/
 └── README.md                   # Project documentation
 ```
 
-## 🎯 Key Components
+## Key Components
 
 ### Dashboard Component
 - **State Management** - React hooks for data and filters
