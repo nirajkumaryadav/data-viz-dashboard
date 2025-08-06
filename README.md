@@ -1,4 +1,4 @@
-# 🌙 Data Visualization Dashboard
+# Data Visualization Dashboard
 
 A stunning, modern data visualization dashboard built with React, D3.js, and FastAPI featuring a beautiful dark theme with 3D animations and interactive charts.
 
@@ -7,30 +7,30 @@ A stunning, modern data visualization dashboard built with React, D3.js, and Fas
 ![FastAPI](https://img.shields.io/badge/FastAPI-Latest-green)
 ![D3.js](https://img.shields.io/badge/D3.js-7.x-orange)
 
-## ✨ Features
+## Features
 
-### 🎨 **Visual Excellence**
+### **Visual Excellence**
 - **Dark Theme** - Elegant dark mode with glassmorphism effects
 - **3D Animations** - Smooth hover effects and transforms
 - **Holographic Borders** - Animated gradient borders
 - **Particle Effects** - Floating background particles
 - **Responsive Design** - Works perfectly on all devices
 
-### 📊 **Interactive Analytics**
+### **Interactive Analytics**
 - **Dynamic Charts** - Beautiful D3.js visualizations with tooltips
 - **Real-time Filtering** - 8 different filter categories
 - **Key Insights** - Live analytics with visual metrics
 - **Data Export** - Download filtered data as JSON
 - **Print Support** - Clean print-ready layouts
 
-### 🚀 **Technical Features**
+### **Technical Features**
 - **Fast Performance** - Optimized React components
 - **Error Handling** - Graceful error states with retry options
 - **Loading States** - Smooth loading animations
 - **Accessibility** - WCAG compliant with keyboard navigation
 - **Modern Architecture** - Clean, maintainable codebase
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React 18** - Modern React with hooks
@@ -48,7 +48,7 @@ A stunning, modern data visualization dashboard built with React, D3.js, and Fas
 - **Google Fonts** - Inter & JetBrains Mono
 - **CSS Variables** - Consistent theming
 
-## 📱 Screenshots
+## Screenshots
 
 ### Main Dashboard
 ![Main Dashboard](./docs/dashboard-main.png)
@@ -59,7 +59,7 @@ A stunning, modern data visualization dashboard built with React, D3.js, and Fas
 ### Mobile View
 ![Mobile Responsive](./docs/dashboard-mobile.png)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 16+ and npm
@@ -70,7 +70,7 @@ A stunning, modern data visualization dashboard built with React, D3.js, and Fas
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/data-viz-dashboard.git
+   git clone https://github.com/nirajkumaryadav/data-viz-dashboard.git
    cd data-viz-dashboard
    ```
 
@@ -93,7 +93,7 @@ A stunning, modern data visualization dashboard built with React, D3.js, and Fas
    - Backend API: http://localhost:8000
    - API Docs: http://localhost:8000/docs
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 data-viz-dashboard/
@@ -141,7 +141,7 @@ data-viz-dashboard/
 - **Hover Effects** - Interactive row highlights
 - **Mobile Responsive** - Horizontal scrolling on mobile
 
-## 🎨 Styling Features
+## Styling Features
 
 ### Animations
 - **Particle Float** - Subtle background movement
