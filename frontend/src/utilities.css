@@ -1,0 +1,142 @@
+
+/* Utility Classes for Dark Dashboard */
+
+/* Spacing utilities */
+.mt-6 { margin-top: 4rem; }
+.mb-6 { margin-bottom: 4rem; }
+.pt-6 { padding-top: 4rem; }
+.pb-6 { padding-bottom: 4rem; }
+
+/* Text utilities */
+.text-glow {
+  text-shadow: 0 0 10px rgba(102, 126, 234, 0.5);
+}
+
+.text-primary-dark {
+  color: #a0a0ff;
+}
+
+.text-secondary-dark {
+  color: #b0b0d0;
+}
+
+/* Background utilities */
+.bg-dark-primary {
+  background: rgba(20, 20, 40, 0.8);
+}
+
+.bg-dark-secondary {
+  background: rgba(25, 25, 50, 0.8);
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.bg-gradient-secondary {
+  background: linear-gradient(135deg, #764ba2 0%, #f093fb 100%);
+}
+
+/* Border utilities */
+.border-primary-dark {
+  border-color: rgba(102, 126, 234, 0.3);
+}
+
+.border-glow {
+  border: 1px solid rgba(102, 126, 234, 0.3);
+  box-shadow: 0 0 10px rgba(102, 126, 234, 0.2);
+}
+
+/* Animation utilities */
+.animate-fade-in {
+  animation: darkFadeInUp 0.6s ease-out;
+}
+
+.animate-slide-left {
+  animation: slideInFromLeft 0.6s ease-out;
+}
+
+.animate-slide-right {
+  animation: slideInFromRight 0.6s ease-out;
+}
+
+/* Transform utilities */
+.transform-3d {
+  transform-style: preserve-3d;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px) translateZ(10px);
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Shadow utilities */
+.shadow-dark {
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-primary {
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+}
+
+.shadow-glow {
+  box-shadow: 0 0 20px rgba(102, 126, 234, 0.4);
+}
+
+/* Display utilities */
+.glass-effect {
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Interactive states */
+.interactive {
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+  cursor: pointer;
+}
+
+.interactive:hover {
+  transform: translateY(-3px) translateZ(5px);
+}
+
+/* Loading overlay */
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 12, 41, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+/* Status indicators */
+.status-online {
+  background: #27ae60;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+}
+
+.status-offline {
+  background: #e74c3c;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+}
+
+.status-warning {
+  background: #f39c12;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+}

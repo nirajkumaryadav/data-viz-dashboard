@@ -42,7 +42,9 @@ data-viz-dashboard
    ```
 3. Run the FastAPI application:
    ```
-   uvicorn app.main:app --reload
+   uvicorn app.main:app --reload 
+   or 
+   python -m uvicorn app.main:app --reload
    ```
 
 ## Frontend Setup
